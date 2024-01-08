@@ -8,8 +8,14 @@
   <title>Contato | Bikcraft</title>
   <meta name="description" content="Contato.">
 
-  <link rel="preload" href="./css/style.css" as="style">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="./css/style.min.css" as="style">
+  <link rel="stylesheet" href="./css/style.min.css">
+  <script>document.documentElement.classList.add('js');</script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 
 <body id="contato">
@@ -42,13 +48,13 @@
         <h2 class="font-1-m cor-0">Loja Online</h2>
         <div class="contato-endereco font-2-s cor-4">
           <p>Rua Ali Perto, 35</p>
-          <p>Rio de Janeiro - RJ</p>
+          <p>São Paulo - SP</p>
           <p>Brasil - Terra - Vita Láctea</p>
         </div>
         <address class="contato-meios font-2-s cor-4">
           <a href="mailto:contato@bikcraft.com">contato@bikcraft.com</a>
           <a href="mailto:assistencia@bikcraft.com">assistencia@bikcraft.com</a>
-          <a href="tel:+552199999999">+55 21 9999-9999</a>
+          <a href="tel:+552199999999">+55 11 9999-9999</a>
         </address>
         <div class="contato-redes">
           <a href="./">
@@ -70,7 +76,7 @@
           </div>
           <div>
             <label for="telefone">Telefone</label>
-            <input type="text" id="telefone" name="telefone" placeholder="(21) 9999-9999">
+            <input type="text" id="telefone" name="telefone" placeholder="(11) 9999-9999">
           </div>
           <div class="col-2">
             <label for="email">Email</label>
@@ -89,16 +95,16 @@
   <article class="lojas container">
     <h2 class="font-1-xxl">lojas locais<span class="cor-p1">.</span></h2>
     <div class="lojas-item">
-      <img src="./img/lojas/rj.jpg" alt="mapa marcando o endereço em Rua Ali Perto, 25 - Rio de Janeiro - RJ">
+      <img src="./img/lojas/SP.jpg" alt="mapa marcando o endereço em Rua Ali Perto, 25 - São Paulo - SP">
       <div class="lojas-conteudo">
-        <h3 class="font-1-xl">Rio de Janeiro</h3>
+        <h3 class="font-1-xl">São Paulo</h3>
         <div class="lojas-dados font-2-s cor-8">
           <p>Rua Ali Perto, 25</p>
-          <p>Rio de Janeiro - RJ</p>
+          <p>São Paulo - SP</p>
         </div>
         <div class="lojas-dados font-2-s cor-8">
-          <a href="mailto:rj@bikcraft.com">rj@bikcraft.com</a>
-          <a href="tel:+552199999999">+55 21 9999-9999</a>
+          <a href="mailto:SP@bikcraft.com">sp@bikcraft.com</a>
+          <a href="tel:+551199999999">+55 11 9999-9999</a>
         </div>
         <p class="lojas-tempo font-1-s"><img src="./img/icones/horario.svg" alt="">08-18h de seg à dom</p>
       </div>
@@ -158,6 +164,7 @@
       <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
